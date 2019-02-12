@@ -21,8 +21,26 @@
     
         }
         a {
+            position: relative;
             display: block;
             padding: 20px;
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                width: 0;
+                border-bottom: 1px solid #76bdf8;
+                transition: 0.3s;
+            }
+            &:hover {
+                transform: scale(1.1);
+                &:before {
+                    width: 100%;
+                }
+                
+
+            }
         }
     }
 }

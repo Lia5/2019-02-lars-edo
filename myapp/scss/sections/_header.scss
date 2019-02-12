@@ -1,19 +1,19 @@
-.logo__text {
-    font-family: "SourceSansPro", Arial, sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    letter-spacing: 13px;
-    text-transform: uppercase;
-//     font-size: 23px;
-//     font-weight: 200;
-//     font-style: italic;
-//     font-family: "Lato", Arial, sans-serif;
-//     letter-spacing: 3px;
+// .logo__text {
+//     font-family: "SourceSansPro", Arial, sans-serif;
+//     font-size: 50px;
+//     font-weight: bold;
+//     letter-spacing: 13px;
+//     text-transform: uppercase;
+// }
+.logo__img {
+    img {
+        width: 100%;
+    }
 }
 
 
-
 nav {
+    padding-top: 5px;
     background-color: $accent;
     color: #fff;
     a {
