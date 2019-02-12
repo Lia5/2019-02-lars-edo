@@ -1,5 +1,4 @@
 .header {
-    padding: 40px 0;
     .wrap {
         display: flex;
         justify-content: space-between;
@@ -34,13 +33,12 @@
         }
     }
     img {
-  
+        max-height: 450px;
         width: 100%;
         height: auto;
 
     }
     &__about {
-        background-color: #fff;
         padding: 20px;
         font-size: 27px;
     }
