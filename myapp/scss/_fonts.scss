@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+
+@include font-face("Lato", "../fonts/Lato-Black/Lato-Black", 800);
+@include font-face("Lato", "../fonts/Lato-Medium/Lato-Medium", 500);
+@include font-face("Lato", "../fonts/Lato-Regular/Lato-Regular", 400);
+@include font-face("Lato", "../fonts/Lato-ThinItalic/Lato-ThinItalic", 200, italic);
+
+@include font-face("SourceSansPro", "../fonts/SourceSansPro-Regular/SourceSansPro-Regular", 400);

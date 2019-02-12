@@ -1,0 +1,67 @@
+.logo__text {
+    font-family: "SourceSansPro", Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+//     font-size: 23px;
+//     font-weight: 200;
+//     font-style: italic;
+//     font-family: "Lato", Arial, sans-serif;
+//     letter-spacing: 3px;
+}
+
+
+
+nav {
+    background-color: $accent;
+    color: #fff;
+    a {
+        color: #fff;
+    }
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+
+
+.mainwrap {
+    padding: 47px 0 0 0;
+    height: 100vh;
+    min-height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: url('../img/bg.jpg') repeat;
+    background-position: center;
+
+}
+
+
+
+.toggle-menu {
+    display: none;
+}
+.cross {
+    display: none;
+}
+.main-menu {
+
+    ul {
+        display: flex;
+    }
+    a  {
+        display: block;
+        padding: 20px 30px;
+    }
+
+}
+
+//header
