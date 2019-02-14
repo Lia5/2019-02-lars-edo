@@ -22,13 +22,15 @@
     }
     &__img--wrap {
         position: relative;
+        max-height: 300px;
+        overflow: hidden;
         &:before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
-            bottom: 7px;
+            bottom: 0;
             background-color: rgba(0,0,0,0.4);  
         }
     }
@@ -48,7 +50,6 @@
         color: #fff;
         padding: 20px 40px;
         position: absolute;
-        position: absolute;
         top: 50%;
         left: 50%;
         margin-right: -50%;
@@ -56,55 +57,22 @@
         
     }
 }
+.advantages {
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    background-color: #fff;
+}
 
-.video__play {
-    position: relative;
-    width: 112px;
-    height: 112px;
-    cursor: pointer;
+.show-prez {
+    display: inline-block;
+    color: #fff;
+    transition: 0.3s;
+    padding: 20px;
+    font-size: 14px;
     &:hover {
-        .circle2 {
-            transform: scale(1.2);
-        }
-        .triangle {
-            transform: scale(1.3);
-        }
+        transform: scale(1.1);
     }
 }
-.circle1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%,-50%);
-    width: 112px;
-    height: 112px;
-    border-radius: 50%;
-    border: 6px solid hsla(0,0%,100%,.5);
-}
-.circle2 {
-    margin-top: 8px;
-    padding-top: 1px;
-    margin-left: 9px;
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
-    background-color: red;
-    transition: .3s;
-}
-.triangle {
-    position: absolute;
-    top: 32px;
-    left: 37px;
-    width: 0;
-    height: 0;
-    border-top: 18px solid transparent;
-    border-left: 30px solid #fff;
-    border-bottom: 18px solid transparent;
-    transition: .3s;
-}
-
-
 .right-side {
     width: 48%;
     padding: 5px;
